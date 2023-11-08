@@ -1,0 +1,141 @@
+@media screen and (max-width: 931px) {
+    .content-container {
+        margin: 96px 12px;
+        display: block;
+    }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
+    .ocean-content{
+        margin-right : 0;
+    }
+    .content-item{
+        margin-top: 102px;
+    }
+    .mountains-content {
+        margin-right : 0;
+    }
+    .new-tour-image{
+    transform: translate(-18%, -18%);
+
+    }
+    .new-tour .image-content{
+    transform: translate(10%, -30%);
+
+    }
+    .dark-container {
+        width: 100%;
+    }
+
+    .light-container {
+        width: 100%
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .place-image {
+        width: 100%;
+        height: 250px;
+    }
+    .container{
+        height: 250px;
+
+    }
+    
+    .ipad-cost {
+        padding: 16px;
+        border-radius: 50%;
+    }
+
+    .cost {
+        /* font-size: 32px; */
+        margin-top: 18px;
+    }
+
+    /* .per-tour {
+        font-size: 24px;
+    } */
+
+}
+
+@media screen and (max-width: 1366px) and (min-width: 933px) {
+    .content-container {
+        margin: 102px 8px;
+        flex-wrap: wrap;
+    }
+    .content-item{
+        width: 473px;
+        /* flex:32%; */
+
+    }
+    .mountains-content {
+        margin-top : 0;
+        margin-right: 0;
+    } 
+    
+    .forest-content {
+        margin-top: 102px;
+    } 
+    .dark-container {
+        width: 100%;
+    }
+
+    .light-container {
+        width: 100%
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .place-image {
+        width: 100%;
+        height: 250px;
+    }
+    .container{
+        height: 250px;
+
+    }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .image-content {
+        font-size: 40px;
+    } */
+
+    /* .f-36>* {
+        font-size: 28px;
+    } */
+
+    /* .content {
+        font-size: 24px;
+    } */
+
+    .buy-button {
+        /* font-size: 24px; */
+        padding: 24px 36px;
+        width : 250px;
+    }
+    .buy-button.forest-button {
+        width : 300px;
+
+    }
+    .ipad-cost {
+        padding: 16px;
+        border-radius: 50%;
+    }
+
+    .cost {
+        /* font-size: 32px; */
+        margin-top: 18px;
+    }
+
+    /* .per-tour {
+        font-size: 24px;
+    } */
+}

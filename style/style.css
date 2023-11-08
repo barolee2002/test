@@ -1,0 +1,268 @@
+body {
+    background-color: #ccc;
+    /* opacity: 0.702; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.w-100 {
+    width: 100%;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 175px;
+}
+
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.mountains-content {
+    margin-right: 42px;
+}
+
+.ocean-content {
+    margin-right: 42px;
+}
+.cost-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    transform: translateY(-50%);
+}
+.ocean-cost {
+    color: #2196f7;
+
+}
+.mountain-cost {
+    color: #d74498;
+
+}
+.forest-cost {
+    color: #32ad1e;
+
+}
+.cost {
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.per-tour {
+    font-size: 16px;
+    color: #99a9b5;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    margin-top: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 272px;
+}
+
+.place-image {
+    width: 100%;
+    height: 272px;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.image-content {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.image-subcontent {
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    color: #b6c6c9;
+    font-weight: 400;
+    top: 65%;
+    left: 50%;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    transform: translate(-50%, -60%);
+
+
+}
+
+.new-tour {
+    position: absolute;
+    top: 0
+}
+
+.new-tour-image {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    transform: translate(-24%, -24%);
+    top: 0;
+    left: 0
+}
+
+.new-tour .image-content {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    transform: translate(6%, -40%);
+    text-align: center;
+}
+
+.subtitle-tiltle {
+    font-size: 24px;
+    line-height: 37px;
+    color: #5f727f;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    width: 100%;
+    margin-bottom : 0;
+}
+
+.subtitle-description {
+    font-size: 14px;
+    line-height: 25px;
+    color: #99a9b5;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    width: 100%;
+    text-align: center;
+}
+
+.dark-container {
+    width: 362px;
+    background-color: #f4f6f7;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5f727f;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+.light-container {
+    width: 362px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+.cost-container:hover {
+    background-color: #2c2e3d;
+    cursor: pointer;
+}
+
+
+
+.buy-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    justify-content: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Montserrat";
+    /* text-align: center; */
+    width: 170px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 32px 36px;
+    bottom : 0;
+    margin-bottom: 12px;
+    align-items: flex-end;
+    align-self: flex-end;
+    
+}
+
+.ocean-button {
+    color: #2196f7;
+    border: 1px solid #2196f7;
+}
+
+.ocean-button:hover {
+    background-color: #2196f7;
+    color: #fff;
+    border: none
+}
+
+.mountain-button {
+    color: #6c136f;
+    border: 1px solid #6c136f;
+}
+
+.mountain-button:hover {
+    color: #fff;
+    background-color: #6c136f;
+    border: none
+}
+
+.forest-button {
+    color: #33cc33;
+    border: 1px solid #33cc33;
+}
+
+.forest-button:hover {
+    color: #fff;
+    background-color: #33cc33;
+    border: none
+}
