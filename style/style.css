@@ -2,6 +2,9 @@ html {
     background-color: #ccc;
 
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
 .w-100 {
     width: 100%;
 }
@@ -107,7 +110,6 @@ html {
     font-size: 34px;
     padding : 8px;
     line-height: 50px;
-    box-sizing: border-box;
     text-align: center;
     margin: 0;
 }
@@ -116,7 +118,6 @@ html {
     position: absolute;
     width: 100%;
     font-size: 14px;
-    box-sizing: border-box;
     line-height: 25px;
     color: #b6c6c9;
     padding : 12px;
@@ -156,7 +157,6 @@ html {
     font-family: "Source Sans Pro";
     text-align: center;
     padding : 12px;
-    box-sizing: border-box;
     width: 100%;
     margin-bottom : 0;
 }
@@ -169,7 +169,6 @@ html {
     font-family: "Source Sans Pro";
     padding : 12px;
     width: 100%;
-    box-sizing: border-box;
     text-align: center;
 }
 
