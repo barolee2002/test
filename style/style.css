@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    list-style: none;
+
+}
+html {
+    background-color: #ccc;
+
+}
+.w-100 {
+    width: 100%;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 175px;
+}
+
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    max-width: 30%;
+}
+
+.mountains-content {
+    margin-right: 42px;
+}
+
+.ocean-content {
+    margin-right: 42px;
+}
+.cost-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    transform: translateY(-50%);
+}
+.ocean-cost {
+    color: #2196f7;
+
+}
+.mountain-cost {
+    color: #d74498;
+
+}
+.forest-cost {
+    color: #32ad1e;
+
+}
+.cost {
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0;
+
+}
+
+.per-tour {
+    font-size: 16px;
+    color: #99a9b5;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    margin-top: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 272px;
+}
+
+.ocean-background {
+    background-image: url('../assets/image/ocean.png');
+}
+.mountain-background {
+    background-image: url('../assets/image/mountain.png');
+}
+.forest-background {
+    background-image: url('../assets/image/forest.png');
+}
+
+.place-image {
+    width: 100%;
+    height: 272px;
+}
+
+.image-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    padding : 8px;
+    line-height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+.image-subcontent {
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 25px;
+    color: #b6c6c9;
+    padding : 12px;
+    font-weight: 400;
+    top: 65%;
+    left: 50%;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    transform: translate(-50%, -60%);
+}
+.new-tour {
+    position: absolute;
+    top: 0;
+
+}
+.new-tour .image-content {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    box-sizing :unset;
+    padding : 0;
+    background-size: cover;
+    background-image: url(../assets/image/newmark.png);
+}
+
+.subtitle-tiltle {
+    font-size: 24px;
+    line-height: 37px;
+    color: #5f727f;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    padding : 12px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom : 0;
+}
+
+.subtitle-description {
+    font-size: 14px;
+    line-height: 25px;
+    color: #99a9b5;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    padding : 12px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.content {
+    display: block;
+    font-size: 16px;
+    color: #5f727f;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    padding :0
+}
+.content > li {
+    padding : 12px ;
+    line-height: 25px;
+    font-weight: 400;
+    
+}
+.dark-container {
+    background-color: #f4f6f7;
+    
+}
+.light-container {
+    background-color: #fff;
+
+}
+.cost-container:hover {
+    background-color: #2c2e3d;
+    cursor: pointer;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 32px 12px;
+    margin-bottom: 12px;
+    align-items: flex-end;
+}
+.buy-button {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding : 0 32px;
+    cursor: pointer;
+}
+
+
+.ocean-button {
+    color: #2196f7;
+    border: 1px solid #2196f7;
+}
+
+.ocean-button:hover {
+    background-color: #2196f7;
+    color: #fff;
+    border: none
+}
+
+.mountain-button {
+    color: #6c136f;
+    border: 1px solid #6c136f;
+}
+
+.mountain-button:hover {
+    color: #fff;
+    background-color: #6c136f;
+    border: none
+}
+
+.forest-button {
+    color: #33cc33;
+    border: 1px solid #33cc33;
+}
+
+.forest-button:hover {
+    color: #fff;
+    background-color: #33cc33;
+    border: none
+}
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    .content-container {
+        margin: 64px 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
+    .ocean-content{
+        margin-right : 0;
+
+    }
+    .content-item{
+        margin-top: 102px;
+        align-self: center;
+        max-width: 80%;
+    }
+    .mountains-content {
+        margin-right : 0;
+    } 
+    .place-image {
+        width: 100%;
+        height: 250px;
+    }
+    .container{
+        height: 250px;
+
+    } 
+    .buy-button {
+        width : 100%;
+    }
+    .ipad-cost {
+        padding: 16px;
+        border-radius: 50%;
+    }
+    .cost {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700.1px) {
+    .content-container {
+        margin: 102px 50px;
+        flex-wrap: wrap;
+    }
+    .content-item{
+        max-width: 45%;
+    }
+    .ocean-content {
+        margin-right: 0;
+
+    }
+    .mountains-content {
+        margin-top : 0;
+        margin-right: 0;
+    } 
+    
+    .forest-content {
+        margin-top: 102px;
+    } 
+    
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .place-image {
+        width: 100%;
+        height: 250px;
+    }
+    .container{
+        height: 250px;
+
+    }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
+
+    .buy-button {
+        width : 100%;
+        font-size: 16px;
+    }
+    
+    .ipad-cost {
+        padding: 16px;
+        border-radius: 50%;
+    }
+
+    .cost {
+        margin-top: 18px;
+    }
+}
