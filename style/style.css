@@ -7,14 +7,17 @@
     list-style: none;
 
 }
+html {
+    background-color: #ccc;
+
+}
 .w-100 {
     width: 100%;
 }
 .content-container {
     display: flex;
     justify-content: space-between;
-    padding: 100px 175px;
-    background-color: #ccc;
+    margin: 100px 175px;
 }
 
 .content-item {
@@ -261,7 +264,7 @@
 
 @media screen and (max-width: 700px) {
     .content-container {
-        padding: 64px 20px;
+        margin: 64px 20px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -304,7 +307,7 @@
 
 @media screen and (max-width: 1200px) and (min-width: 700.1px) {
     .content-container {
-        padding: 102px 50px;
+        margin: 102px 50px;
         flex-wrap: wrap;
     }
     .content-item{
